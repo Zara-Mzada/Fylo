@@ -1,0 +1,263 @@
+:root{
+/* --------------COLORS--------------- */
+    --dark-blue: #07043B;
+    --button-blue: #2F65F8;
+    --inside-label: #C2C2C2;
+    --white: #FFFFFF;
+    --green-link: #3DA08F;
+    --footer-purple: #575988;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    background-color: var(--white);
+    color: var(--dark-blue);
+    box-sizing: border-box;
+}
+
+.container1{
+    width: 1280px;
+    margin: 65px auto 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logoPart{
+    width: 166px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topMenu{
+    display: flex;
+    align-items: center;
+}
+.topMenu ul{
+    margin: 0px;
+    padding: 0px;
+    width: 271px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topMenu ul li a{
+    font-size: 16;
+    font-family: 'Raleway';
+    color: var(--dark-blue);
+}
+
+.container2{
+    width: 1280px;
+    margin: 125px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2 img{
+    width: 640px;
+    height: 474px;
+}
+
+h1{
+    color: var(--dark-blue);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    line-height: 60px;
+}
+
+.container2 h1{
+    margin-bottom: 15px;
+}
+
+.container2 p{
+    color: var(--dark-blue);
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.53px;
+    width: 585px;
+}
+
+.register{
+    display: flex;
+    justify-content: space-between;
+    width: 536px;
+}
+
+.register input{
+    width: 320px;
+    height: 45px;
+    color: var(--inside-label);
+    padding: 18px;
+    box-sizing: border-box;
+    border: 1px solid var(--dark-blue);
+    border-radius: 5px;
+}
+
+button{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    background-color: var(--button-blue);
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 7px 7px -7px rgba(0,0,0,0.69);
+}
+
+.fullContainer{
+    width: 100%;
+    padding-bottom: 107px;
+}
+
+.container3{
+    width: 1280px;
+    margin: 107px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 195px;
+}
+
+.container3 h1{
+    margin-bottom: 38px;
+}
+
+.cont_mainText>p{
+    margin-bottom: 20px;
+}
+
+.a_border{
+    width: 166px;
+    height: 27px;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--green-link);
+    margin-bottom: 45px;
+}
+
+.container3 a{
+    color: var(--green-link);
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.comment{
+    width: 356px;
+    height: 215px;
+    border: 1px solid 979797;
+    border-radius: 5px;
+    box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.75);
+}
+
+.comment_cont{
+    width: 289px;
+    margin: auto;
+}
+.sign{
+    color: var(--footer-purple);
+    line-height: 67.5px;
+    font-family: 'Nunito Sans';
+    font-size: 45px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.commentText{
+    font-size: 13px;
+    color: var(--dark-blue);
+}
+
+.Person{
+    display: flex;
+    justify-content: space-between;
+    width: 137px;
+}
+
+.Person div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Person img{
+    width: 32px;
+    height: 32px;
+}
+
+.p1, .p2{
+    margin: 0px;
+}
+
+.p1{
+    font-size: 11px;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.p2{
+    font-size: 8px;
+    color: var(--dark-blue);
+}
+
+.fullContainer1{
+    width: 100%;
+    background-color: var(--footer-purple);
+    padding: 100px 0;
+}
+
+.container4{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.con4_text{
+    width: 533px;
+}
+
+.con4_text h2{
+    color: var(--white);
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Raleway';
+}
+
+.con4_text p{
+    line-height: 24px;
+    font-size: 16px;
+    color: var(--white);
+}
+
+.freeInput{
+    width: 480px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.freeInput input{
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 17px 22px;
+    color: var(--inside-label);
+}
+
+.freeInput button{
+    font-size: 14px;
+    height: 48px;
+}
