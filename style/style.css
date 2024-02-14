@@ -6,6 +6,7 @@
     --white: #FFFFFF;
     --green-link: #3DA08F;
     --footer-purple: #575988;
+    --light-purpple: #F8F8FE;
 }
 
 body{
@@ -120,6 +121,7 @@ button{
 .fullContainer{
     width: 100%;
     padding-bottom: 107px;
+    background-color: var(--light-purpple);
 }
 
 .container3{
@@ -260,4 +262,90 @@ button{
 .freeInput button{
     font-size: 14px;
     height: 48px;
+}
+
+.fullContainer2{
+    width: 100%;
+    background-color: var(--dark-blue);
+}
+
+.container5{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 95px 0px;
+}
+
+.logoPartFooter{
+    margin-bottom: 37px;
+}
+
+.logoFooter{
+    margin-right: 13px;
+}
+
+.footerText{
+    display: flex;
+    gap: 200px;
+    color: var(--white);
+}
+
+.phonemail{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 222px;
+}
+
+.phonemail p{
+    color: var(--white);
+    font-size: 16px;
+    width: 182px;
+    margin: 0px;
+}
+
+.phonemail img{
+    width: 24px;
+    height: 24px;
+}
+
+.phone, .email{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ulClass{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ulAClass{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.socialMedia ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    width: 120px;
+}
+
+.a-border{
+    border: 1px solid var(--white);
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fa{
+    width: 20px;
+    height: 20px;
 }
