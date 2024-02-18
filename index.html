@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fylo</title>
     <link rel="stylesheet" href="./style/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- FONT FAMILY -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -52,7 +55,10 @@
     </div>
     <!---------------------------------MAIN PART 1-------------------->
     <div class="container2">
-      <div>
+      <div class="con2-img">
+        <img src="./images/illustration_1.png" />
+      </div>
+      <div class="con2-text">
         <h1>All your files in one secure location, accessible anywhere.</h1>
         <p>
           Fylo stores your most important files in one secure location. Access
@@ -60,17 +66,20 @@
           and co-workers.
         </p>
         <div class="register">
-          <input type="text" value="Enter your email..." id="email" />
+          <div class="register--email">
+            <input type="text" value="Enter your email..." id="email" />
+            <span>Please, check your email</span>
+          </div>
           <button>Get Started</button>
         </div>
-      </div>
-      <div>
-        <img src="./images/illustration_1.png" />
-      </div>
+      </div> 
     </div>
     <!------------------------------------MAIN PART 2 ------------------->
     <section class="fullContainer">
       <div class="container3">
+        <div>
+          <img src="./images/illustration_2.png" />
+        </div>
         <div class="cont_mainText">
           <h1>Stay productive, wherever you are</h1>
           <p>
@@ -81,11 +90,9 @@
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required!
           </p>
-          <div class="a_border">
-            <a href="#"
-              >See how Fylo works <img src="./images/Group 10.svg" />
-            </a>
-          </div>
+          <a href="#" class="container3-a"
+            >See how Fylo works <img src="./images/Group 10.svg" />
+          </a>
           <div class="comment">
             <div class="comment_cont">
               <p class="sign">"</p>
@@ -104,30 +111,37 @@
             </div>
           </div>
         </div>
-        <div>
-          <img src="./images/illustration_2.png" />
-        </div>
+        
       </div>
     </section>
     <!---------------------------------ABOVE FOOTER-------------------------->
     <section class="fullContainer1">
-        <div class="container4">
-            <div class="con4_text">
-                <h2>Get early access today</h2>
-                <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-            </div>
-            <div class="freeInput">
-                <input type="text" value="example@gmail.com">
-                <button>Get Started For Free</button>
-            </div>
+      <div class="container4">
+        <div class="con4_text">
+          <h2>Get early access today</h2>
+          <p>
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
         </div>
-      </section>
+        <div class="freeInput">
+          <input type="text" value="example@gmail.com" />
+          <button>Get Started For Free</button>
+        </div>
+      </div>
+    </section>
     <!------------------------------FOOTER---------------------------------->
     <section class="fullContainer2">
       <div class="container5">
         <div class="logoPartFooter">
           <a href="#" class="logoFooter">
-            <img src="./images/Logo-darkmode.png" alt="logo" width="56px" height="46px" />
+            <img
+              src="./images/Logo-darkmode.png"
+              alt="logo"
+              width="56px"
+              height="46px"
+            />
           </a>
           <a class="logoNameFooter" href="#">
             <img
@@ -142,11 +156,11 @@
         <div class="footerText">
           <div class="phonemail">
             <div class="phone">
-              <img src="./images/phone.svg">
-            <p>Phone: +1-543-123-4567</p>
+              <img src="./images/phone.svg" />
+              <p>Phone: +1-543-123-4567</p>
             </div>
             <div class="email">
-              <img src="./images/Shape.svg">
+              <img src="./images/Shape.svg" />
               <p>example@fylo.com</p>
             </div>
           </div>
@@ -160,16 +174,28 @@
           </div>
           <div class="contact">
             <ul class="ulClass">
-            <li><a class="ulAClass" href="#">Contact us</a></li>
-            <li><a class="ulAClass" href="#">Terms</a></li>
-            <li><a class="ulAClass" href="#">Privacy</a></li>
-          </ul>
+              <li><a class="ulAClass" href="#">Contact us</a></li>
+              <li><a class="ulAClass" href="#">Terms</a></li>
+              <li><a class="ulAClass" href="#">Privacy</a></li>
+            </ul>
           </div>
           <div class="socialMedia">
             <ul>
-              <li><a class="ulAClass a-border" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="ulAClass a-border" href="#"><i class="fa fa-instagram"></i></a></li>
-              <li><a class="ulAClass a-border" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li>
+                <a class="ulAClass a-border" href="#"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a class="ulAClass a-border" href="#"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a class="ulAClass a-border" href="#"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
             </ul>
           </div>
         </div>
