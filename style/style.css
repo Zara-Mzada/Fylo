@@ -31,6 +31,7 @@ ul li a{
     font-family: 'Raleway';
 }
 
+/* ##### Header ##### */
 .header-nav{
     width: 100%;
     padding-top: 20px;
@@ -109,6 +110,7 @@ ul li a{
     cursor: pointer;
 }
 
+/* ##### Features ##### */
 .features{
     background-image: url(../images/Rectangle.svg);
     background-repeat: no-repeat;
@@ -121,6 +123,14 @@ ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.bi-quote{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: black;
+    border: 1px solid black !important;
 }
 
 .features-flex_left > h1{
@@ -190,6 +200,7 @@ ul li a{
     font-size: 0.6rem;
 }
 
+/* ##### Team ##### */
 .team{
     background-color: var(--footer-purple);
     padding: 100px 0px;
@@ -238,6 +249,7 @@ ul li a{
     cursor: pointer;
 }
 
+/* ##### Footer ##### */
 .footer{
     background-color: var(--dark-blue);
     padding: 80px 0px;
@@ -278,11 +290,61 @@ ul li a{
     justify-content: space-between;
 }
 
-/* ===== Desktop-Active ===== */
+.footer .bi{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: var(--white);
+}
+
+.bi, .bi-social{
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+/* ========================== 
+         Desktop Active      
+   ==========================*/
 form button:hover{
     background-color: var(--button-hover);
 }
 
 .footer ul li a:hover{
     color: var(--button-hover);
+}
+
+.bi-social:hover{
+    color: var(--button-hover);
+    border-color: var(--button-hover);
+}
+
+/* ==========================
+        Responsive
+   ========================== */
+
+@media (max-width: 1300px) and (min-width: 1100px){
+.container{
+    max-width: 1000px;
+}
+.header-home_flex-left input{
+    margin-bottom: 10px;
+}
+.features-flex_right img{
+    width: 450px;
+}
+.team-flex{
+    gap: 50px;
+}
+}
+
+@media (max-width: 1099px) and (min-width: 800px){
+
+}
+
+@media (max-width: 799px) and (min-width: 500px){
+
+}
+
+@media (max-width: 499px) and (min-width: 0px){
+    
 }
