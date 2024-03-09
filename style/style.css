@@ -37,6 +37,17 @@ ul li a{
     padding-top: 20px;
 }
 
+.header-navbar-app{
+    display: none;
+}
+
+.header-navbar-app i{
+    display:block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    color: black;
+}
 .container{
     max-width: 1280px;
     margin: 0 auto;
@@ -74,6 +85,7 @@ ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 .header-home_flex-left{
@@ -123,6 +135,7 @@ ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 .bi-quote{
@@ -338,13 +351,223 @@ form button:hover{
 }
 
 @media (max-width: 1099px) and (min-width: 800px){
-
+.container{
+    max-width: 700px;
+    text-align: center;
 }
-
+.header-nav_logo > img{
+    width: 150px;
+}
+.header-home_flex{
+    display: block;
+}
+.header-home_flex-left{
+    margin: auto;
+}
+.features-flex{
+    display: block;
+}
+.features-flex_left p{
+    width: auto;
+}
+.features-flex_left_link{
+    margin: auto;
+}
+.features-flex_comment{
+    margin: 20px auto;
+}
+.team-flex{
+    display: block;
+}
+.team-flex_left{
+    width: auto;
+}
+.team-flex_right form{
+    align-items: center;
+}
+.footer-flex_down ul{
+    text-align: start;
+}
+}
 @media (max-width: 799px) and (min-width: 500px){
-
+.container{
+    max-width: 400px;
+    text-align: center;
+}
+.header-nav_logo > img{
+    width: 100px;
+}
+.header-nav_navbar{
+    display: none;
+}
+.header-navbar-app{
+    display: block;
+}
+.header-home_flex, .features-flex, .team-flex{
+    display: block
+}
+.header-home{
+    margin-top: 70px;
+}
+.header-home_flex-right img{
+    width: 350px;
+}
+.header-home_flex-left{
+    width: auto;
+}
+.header-home_flex-left h1, .features-flex_left h1{
+    font-size: 1.3rem;
+}
+.header-home_flex-left p, .features-flex_left p{
+    font-size: 0.8rem;
+    width: auto;
+}
+.header-home_flex-left > form input{
+    padding: 8px;
+}
+.header-home_flex-left > form button{
+    padding: 10px 5px;
+    margin-top: 10px;
+}
+.features-flex_right img{
+    width: 350px;
+}
+.features-flex_left{
+    width: auto;
+}
+.features-flex_left_link{
+    margin: auto;
+    width: 135px;
+}
+.features-flex_left_link a{
+    font-size: 12px;
+}
+.features-flex_left_link img{
+    width: 12px;
+}
+.features-flex_comment{
+    margin: 20px auto;
+}
+.team-flex_left{
+    width: auto;
+}
+.team-flex_right form{
+    align-items: center;
+}
+.team-flex_right form input{
+    width: 300px;
+}
+.footer{
+    padding: 40px 0px 20px;
+}
+.footer-flex_down{
+    display: block;
+}
+.footer-flex_down ul{
+    margin-bottom: 40px;
+}
+.footer-flex_down ul:last-child{
+    margin: auto;
+}
 }
 
 @media (max-width: 499px) and (min-width: 0px){
-    
+.container{
+    width: 300px;
+    text-align: center;
+}
+.header-nav_logo > img{
+    width: 80px;
+}
+.header-nav_navbar{
+    display: none;
+}
+.header-navbar-app{
+    display: block;
+}
+.header-home_flex, .features-flex, .team-flex{
+    display: block
+}
+.header-home{
+    margin-top: 50px;
+}
+.header-home_flex-right img{
+    width: 250px;
+}
+.header-home_flex-left{
+    width: auto;
+}
+.header-home_flex-left h1, .features-flex_left h1{
+    font-size: 1.3rem;
+}
+.header-home_flex-left p, .features-flex_left p{
+    font-size: 0.8rem;
+    width: auto;
+}
+.header-home_flex-left > form input{
+    padding: 8px;
+    width: 250px;
+}
+.header-home_flex-left > form button{
+    padding: 10px 0px;
+    margin-top: 10px;
+    width: 200px;
+}
+.features{
+    padding: 150px 0px 20px;
+    margin-top: 0px;
+}
+.features-flex_right img{
+    width: 250px;
+}
+.features-flex_left{
+    width: auto;
+}
+.features-flex_left_link{
+    margin: auto;
+    width: 135px;
+}
+.features-flex_left_link a{
+    font-size: 12px;
+}
+.features-flex_left_link img{
+    width: 12px;
+}
+.features-flex_comment{
+    margin: 20px auto;
+    width: 250px;
+}
+.features-flex_comment_cont{
+    width: 200px;
+}
+.features-flex_comment_cont p{
+    text-align: center;
+}
+.team-flex_left{
+    width: auto;
+}
+.team-flex_left h2{
+    font-size: 1.3rem;
+}
+.team-flex_left p{
+    font-size: 0.8rem;
+}
+.team-flex_right form{
+    align-items: center;
+}
+.team-flex_right form input{
+    width: 250px;
+}
+.footer{
+    padding: 40px 0px 20px;
+}
+.footer-flex_down{
+    display: block;
+}
+.footer-flex_down ul{
+    margin-bottom: 40px;
+}
+.footer-flex_down ul:last-child{
+    margin: auto;
+}
 }
